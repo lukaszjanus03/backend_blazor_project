@@ -1,4 +1,4 @@
-@WebAPI_HostAddress = http://localhost:5000
+@WebAPI_HostAddress = http://localhost:5293/
 
 GET {{WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json
@@ -17,7 +17,7 @@ GET {{WebAPI_HostAddress}}/api/v1/quizzes/10
 Accept: application/json
 
 ### First answer - Good
-POST http://localhost:5000/api/v1/quizzes/1/items/1
+POST {{WebAPI_HostAddress}}/api/v1/quizzes/1/items/1
 Content-Type: application/json
 
 {
@@ -27,7 +27,7 @@ Content-Type: application/json
 
 
 ### Second answer - Good
-POST http://localhost:5000/api/v1/quizzes/1/items/1
+POST {{WebAPI_HostAddress}}/api/v1/quizzes/1/items/1
 Content-Type: application/json
 
 {
@@ -36,7 +36,7 @@ Content-Type: application/json
 }
 
 ### Third answer - Bad
-POST http://localhost:5000/api/v1/quizzes/1/items/1
+POST {{WebAPI_HostAddress}}/api/v1/quizzes/1/items/1
 Content-Type: application/json
 
 {
@@ -45,5 +45,5 @@ Content-Type: application/json
 }
 
 ### Result Check
-GET http://localhost:5000/api/v1/quizzes/1/users/1/result
+GET {{WebAPI_HostAddress}}/api/v1/quizzes/1/users/1/result
 Accept: application/json

@@ -36,3 +36,16 @@ D:\Users\marcin.tomaszek\RiderProjects\prog_ap_back\ApplicationCore\obj\Debug\ne
 D:\Users\marcin.tomaszek\RiderProjects\prog_ap_back\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 D:\Users\marcin.tomaszek\RiderProjects\prog_ap_back\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 D:\Users\marcin.tomaszek\RiderProjects\prog_ap_back\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+C:\Users\Łukasz\RiderProjects\prog_ap_back1\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

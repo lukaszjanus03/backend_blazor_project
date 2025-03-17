@@ -10017,24 +10017,19 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\marcin.tomaszek\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Łukasz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Web\\Web.csproj",
-      "packagesPath": "D:\\Users\\marcin.tomaszek\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Web\\obj\\",
+      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Web\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "D:\\Users\\marcin.tomaszek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10048,11 +10043,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -10089,6 +10084,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10097,7 +10110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

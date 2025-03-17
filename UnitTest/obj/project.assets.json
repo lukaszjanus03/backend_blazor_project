@@ -7582,24 +7582,19 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\marcin.tomaszek\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Łukasz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "D:\\Users\\marcin.tomaszek\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "D:\\Users\\marcin.tomaszek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7613,11 +7608,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Users\\marcin.tomaszek\\RiderProjects\\prog_ap_back\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -7689,7 +7684,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
