@@ -40,6 +40,12 @@ Content-Type: application/json
 GET {{WebAPI_HostAddress}}/api/v1/quizzes/1/users/1/result
 Accept: application/json
 
+### Delete
+DELETE {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
+
+### Delete
+DELETE {{WebAPI_HostAddress}}/api/v1/admin/quizzes/2
+
 ###
 PATCH {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
 Content-Type: application/json-patch+json
@@ -58,3 +64,5 @@ Content-Type: application/json-patch+json
 
 ###
 GET {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
+###
+GET {{WebAPI_HostAddress}}/api/v1/admin/quizzes

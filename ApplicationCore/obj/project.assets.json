@@ -1364,19 +1364,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Łukasz\\.nuget\\packages\\": {}
+    "D:\\Users\\lukasz.janus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\obj\\",
+      "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
+      "packagesPath": "D:\\Users\\lukasz.janus\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\lukasz.janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1443,7 +1448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

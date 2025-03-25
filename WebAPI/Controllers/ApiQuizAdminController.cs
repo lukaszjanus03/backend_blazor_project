@@ -22,9 +22,9 @@ public class ApiQuizAdminController : Controller
     
     //GET
     [HttpGet]
-    public IActionResult Index()
+    public ActionResult<List<Quiz>> Index()
     {
-        return RedirectToPage("/Index");
+        return _service.FindAllQuizzes() is null ? NotFound() : _service.FindAllQuizzes();
     }
     
     //POST
@@ -74,5 +74,13 @@ public class ApiQuizAdminController : Controller
             _service.AddQuizItemToQuiz(quizId, item);
         }
         return Ok(_service.FindAllQuizzes().FirstOrDefault(q => q.Id == quizId));
+    }
+
+    //Delete
+    [HttpDelete]
+    [Route("{quizId}")]
+    public ActionResult GetQuizQuestion(int quizId)
+    {
+        return _service.DeleteQuiz(quizId) ? NoContent() : BadRequest("Quiz have items");
     }
 }

@@ -38,6 +38,17 @@ public class QuizAdminService:IQuizAdminService
     { return quizRepository.FindAll();
     }
 
+    public bool DeleteQuiz(int id)
+    {
+        if (quizRepository.FindById(id).Items.Count == 0)
+        {
+            quizRepository.RemoveById(id);
+            return true;
+        }
+
+        return false;
+    }
+
     public Quiz AddQuiz(Quiz quiz)
     {
         return quizRepository.Add(quiz);

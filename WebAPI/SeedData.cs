@@ -38,6 +38,15 @@ public static class SeedData
                     item2
                 }
             });
+            
+            quizRepo?.Add(new Quiz()
+            {
+                Id = 1,
+                Items = new List<QuizItem>()
+                {
+                    
+                }
+            });
         }
     }
 }
