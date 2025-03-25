@@ -11,21 +11,33 @@ public static class SeedData
             var provider = scope.ServiceProvider;
             var quizRepo = provider.GetService<IGenericRepository<Quiz, int>>();
             var quizItemRepo = provider.GetService<IGenericRepository<QuizItem, int>>();
-
-            List<QuizItem> quiz1_Items = new List<QuizItem>();
-            quiz1_Items.Add(quizItemRepo.Add(new QuizItem(id: 1, correctAnswer: "A", incorrectAnswers: new List<string>(){"B", "C", "D"},question: "Pierwsza litera alfabetu?")));
-            quiz1_Items.Add(quizItemRepo.Add(new QuizItem(id: 2, correctAnswer: "B", incorrectAnswers: new List<string>(){"A", "C", "D"},question: "Druga litera alfabetu?")));
-            quiz1_Items.Add(quizItemRepo.Add(new QuizItem(id: 3, correctAnswer: "C", incorrectAnswers: new List<string>(){"B", "A", "D"},question: "Trzecia litera alfabetu?")));
-            quizRepo.Add(new Quiz(id: 1, items: quiz1_Items, title: "Alfabet"));
+            List<QuizItem> quizItems = new List<QuizItem>();
             
-            List<QuizItem> quiz2_Items = new List<QuizItem>();
-            
-            quiz2_Items.Add(quizItemRepo.Add(new QuizItem(id: 4, correctAnswer: "1", incorrectAnswers: new List<string>(){"4", "2", "3"},question: "Ile to jest 1 + 0?")));
-            quiz2_Items.Add(quizItemRepo.Add(new QuizItem(id: 5, correctAnswer: "2", incorrectAnswers: new List<string>(){"1", "4", "3"},question: "Ile to jest 1 + 1?")));
-            quiz2_Items.Add(quizItemRepo.Add(new QuizItem(id: 6, correctAnswer: "3", incorrectAnswers: new List<string>(){"1", "2", "4"},question: "Ile to jest 1 + 2?")));
-            quizRepo.Add(new Quiz(id: 2, items: quiz2_Items, title: "Matematyka"));
+            var item1 = quizItemRepo?.Add(new QuizItem()
+            {
+                Id = 1,
+                CorrectAnswer = "5",
+                Question = "3 + 2",
+                IncorrectAnswers = new List<string>() { "2", "3", "4" }
+            });
 
+            var item2 = quizItemRepo?.Add(new QuizItem()
+            {
+                Id = 2,
+                CorrectAnswer = "8",
+                Question = "4 * 2",
+                IncorrectAnswers = new List<string>() { "10", "6", "4" }
+            });
 
+            quizRepo?.Add(new Quiz()
+            {
+                Id = 1,
+                Items = new List<QuizItem>()
+                {
+                    item1,
+                    item2
+                }
+            });
         }
     }
 }

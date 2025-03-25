@@ -967,11 +967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\BlazorChat\\BlazorChat.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\BlazorChat\\BlazorChat.csproj",
       "projectName": "BlazorChat",
-      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\BlazorChat\\BlazorChat.csproj",
+      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\BlazorChat\\BlazorChat.csproj",
       "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\BlazorChat\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\BlazorChat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -988,11 +988,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

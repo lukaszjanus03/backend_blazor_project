@@ -10022,11 +10022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Web\\Web.csproj",
+      "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Web\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10043,11 +10043,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

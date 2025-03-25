@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IreNS+xBir0=",
+  "dgSpecHash": "Zi+mPYUFhC0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Łukasz\\RiderProjects\\prog_ap_back1\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Łukasz\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\9.0.2\\microsoft.aspnetcore.connections.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\Łukasz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\9.0.2\\microsoft.aspnetcore.http.connections.client.9.0.2.nupkg.sha512",
