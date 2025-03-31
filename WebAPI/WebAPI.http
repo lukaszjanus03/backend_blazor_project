@@ -1,10 +1,6 @@
 @WebAPI_HostAddress =  http://localhost:5293
 
 
-GET {{WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-###
-
 GET {{WebAPI_HostAddress}}/api/v1/quizzes
 Accept: application/json
 ###
@@ -37,10 +33,10 @@ Content-Type: application/json
 }
 
 ### Result Check
-GET {{WebAPI_HostAddress}}/api/v1/quizzes/1/users/1/result
+GET {{WebAPI_HostAddress}}/api/v1/quizzes/1/answers/1/
 Accept: application/json
 
-###
+### valid patch
 PATCH {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
 Content-Type: application/json-patch+json
 
@@ -55,6 +51,63 @@ Content-Type: application/json-patch+json
     }
   }
 ]
+### Invalid patch question is empty
+PATCH {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
 
+[
+  {
+    "op": "add",
+    "path": "/items/-",
+    "value": {
+      "question": "",
+      "correctAnswer": "28",
+      "incorrectAnswers": ["26","27","29"]
+    }
+  }
+]
 ###
 GET {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
+###
+GET {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1/1
+###
+GET {{WebAPI_HostAddress}}/api/v1/admin/quizzes
+###
+GET {{WebAPI_HostAddress}}/api/v1/admin/quizzes/3
+###
+DELETE {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
+###
+DELETE {{WebAPI_HostAddress}}/api/v1/admin/quizzes/2
+###
+PUT {{WebAPI_HostAddress}}/api/v1/admin/quizzes/1
+Content-Type: application/json
+
+{
+  "title": "Updated Quiz Title",
+  "items": [
+    {
+      "question": "What is 6 + 4?",
+      "correctAnswer": "10",
+      "incorrectAnswers": ["9", "11", "12"]
+    }
+  ]
+}
+### Valid request to test newQuizItemValidatedDto
+POST {{WebAPI_HostAddress}}/api/v1/admin/quizzes/validatortest
+Content-Type: application/json
+
+{
+  "question": "2 + 5",
+  "options": ["2", "3", "4", "6", "7"],
+  "correctOptionIndex": 4
+}
+
+### Invalid request to test newQuizItemValidatedDto
+POST {{WebAPI_HostAddress}}/api/v1/admin/quizzes/validatortest
+Content-Type: application/json
+
+{
+  "question": "2 + 5",
+  "options": ["2", "3", "6", "7"],
+  "correctOptionIndex": 4
+}

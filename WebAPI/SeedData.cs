@@ -32,11 +32,19 @@ public static class SeedData
             quizRepo?.Add(new Quiz()
             {
                 Id = 1,
+                Title = "matematyka",
                 Items = new List<QuizItem>()
                 {
                     item1,
                     item2
                 }
+            });
+            
+            quizRepo?.Add(new Quiz()
+            {
+                Id = 1,
+                Title = "Test",
+                Items = new List<QuizItem>()
             });
         }
     }

@@ -46,6 +46,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -222,6 +226,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",

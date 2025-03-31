@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Dto;
 using BackendLab01;
+using FluentValidation;
 
 
 namespace WebAPI.Controllers;
@@ -13,11 +14,14 @@ public class ApiQuizAdminController : Controller
 {
     private readonly IQuizAdminService _service;
     private readonly IMapper _mapper;
-    
-    public ApiQuizAdminController(IQuizAdminService service, IMapper mapper)
+    private readonly IValidator<QuizItem> _quizItemValidator;
+    private readonly IValidator<NewQuizItemValidatedDto> _newQuizItemValidatedDtoValidator;
+    public ApiQuizAdminController(IQuizAdminService service, IMapper mapper, IValidator<QuizItem>  quizItemValidator,IValidator<NewQuizItemValidatedDto> newQuizItemValidatedDtoValidator)
     {
         _service = service;
         _mapper = mapper;
+        _quizItemValidator = quizItemValidator;
+        _newQuizItemValidatedDtoValidator = newQuizItemValidatedDtoValidator;
     }
     
     //GET
@@ -71,8 +75,27 @@ public class ApiQuizAdminController : Controller
         {
             QuizItem item = quiz.Items[^1];
             quiz.Items.RemoveAt(quiz.Items.Count - 1);
+            var validationResult = _quizItemValidator.Validate(item);
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
             _service.AddQuizItemToQuiz(quizId, item);
         }
         return Ok(_service.FindAllQuizzes().FirstOrDefault(q => q.Id == quizId));
+    }
+    
+    [HttpPost]
+    [Route("validatortest")]
+    public IActionResult CreateQuizItem([FromBody] NewQuizItemValidatedDto dto)
+    {
+        var validationResult = _newQuizItemValidatedDtoValidator.Validate(dto);
+
+        if (!validationResult.IsValid)
+        {
+            return BadRequest(validationResult.Errors);
+        }
+
+        return Ok("✅ Pytanie zostało poprawnie dodane!");
     }
 }

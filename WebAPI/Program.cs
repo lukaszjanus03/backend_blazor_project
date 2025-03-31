@@ -1,8 +1,12 @@
 using ApplicationCore.Interfaces.Repository;
 using Infrastructure.Memory;
-using WebAPI;
 using BackendLab01;
 using Infrastructure.Memory.Repository;
+using FluentValidation.AspNetCore;
+using FluentValidation;
+using WebAPI;
+using WebAPI.Dto;
+using WebAPI.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,12 +17,15 @@ builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddTransient<IGenericGenerator<int>, IntGenerator>();
 builder.Services.AddSingleton<IGenericRepository<Quiz, int>, MemoryGenericRepository<Quiz, int>>();
 builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRepository<QuizItem, int>>();
 builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
 builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
 builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
+builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
+builder.Services.AddScoped<IValidator<NewQuizItemValidatedDto>, NewQuizItemValidatedDtoValidator>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

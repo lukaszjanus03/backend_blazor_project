@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "q8b8zxCQFXU=",
+  "dgSpecHash": "P0qijEdo5SI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Łukasz\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Łukasz\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Łukasz\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Łukasz\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Łukasz\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\9.0.2\\microsoft.aspnetcore.connections.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\Łukasz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\9.0.2\\microsoft.aspnetcore.http.connections.client.9.0.2.nupkg.sha512",
     "C:\\Users\\Łukasz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\9.0.2\\microsoft.aspnetcore.http.connections.common.9.0.2.nupkg.sha512",

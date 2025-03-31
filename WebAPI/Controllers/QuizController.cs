@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public IEnumerable<QuizDto> FindAll()
         {
-           return  _service.FindAllQuizzes().Select(u=>QuizDto.of(u));
+            return  _service.FindAllQuizzes().Select(u=>QuizDto.of(u));
         }
         
         [HttpGet]
@@ -46,15 +46,27 @@ namespace WebAPI.Controllers
             return Ok("Answer saved successfully");
         }
         
+        
         [HttpGet]
-        [Route("{quizId}/users/{userId}/result")]
-        public ActionResult<QuizResultDto> GetQuizResultForUser(int quizId, int userId)
+        [Route("{quizId}/answers/{userId}")]
+        public ActionResult<object> GetQuizFeedback(int quizId, int userId)
         {
-            int correctAnswers = _service.CountCorrectAnswersForQuizFilledByUser(quizId, userId);
-
-            var resultDto = new QuizResultDto(quizId, userId, correctAnswers);
-
-            return Ok(resultDto);
+            var feedback = _service.GetUserAnswersForQuiz(quizId, userId);
+            return new
+            {
+                quizId = quizId,
+                userId = userId,
+                totalQuestions = _service.FindQuizById(quizId)?.Items.Count??0,
+                answers = feedback.Select(a =>
+                    new
+                    {
+                        question = a.QuizItem.Question,
+                        answer = a.Answer,
+                        isCorrect = a.IsCorrect()
+                    }
+                ).AsEnumerable()
+            };
         }
     }
 }
+

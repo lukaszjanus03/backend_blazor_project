@@ -486,3 +486,6 @@ C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\obj\Debug\net9.0\re
 C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\obj\Debug\net9.0\WebAPI.pdb
 C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\obj\Debug\net9.0\WebAPI.genruntimeconfig.cache
 C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\obj\Debug\net9.0\ref\WebAPI.dll
+C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\Łukasz\RiderProjects\backend_blazor_project\WebAPI\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
