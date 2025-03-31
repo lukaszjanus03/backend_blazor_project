@@ -620,12 +620,6 @@
       "Microsoft.AspNetCore.Connections.Abstractions/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Features": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6704"
-          }
         }
       },
       "Microsoft.AspNetCore.Http.Connections.Client/9.0.2": {
@@ -645,12 +639,6 @@
       "Microsoft.AspNetCore.Http.Connections.Common/9.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Connections.Abstractions": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6704"
-          }
         }
       },
       "Microsoft.AspNetCore.JsonPatch/9.0.0": {
@@ -728,23 +716,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.Connections.Abstractions": "9.0.2",
           "Microsoft.Extensions.Options": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.SignalR.Common.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6704"
-          }
         }
       },
       "Microsoft.AspNetCore.SignalR.Protocols.Json/9.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.SignalR.Common": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6704"
-          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -1276,22 +1252,9 @@
       "Microsoft.Extensions.DependencyInjection/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.2": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
-        }
-      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.2": {},
       "Microsoft.Extensions.DependencyModel/9.0.0-rc.2.24473.5": {
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
@@ -1300,58 +1263,26 @@
           }
         }
       },
-      "Microsoft.Extensions.Features/9.0.2": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Features.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6704"
-          }
-        }
-      },
+      "Microsoft.Extensions.Features/9.0.2": {},
       "Microsoft.Extensions.Logging/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
           "Microsoft.Extensions.Options": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
         }
       },
       "Microsoft.Extensions.Options/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
           "Microsoft.Extensions.Primitives": "9.0.2"
-        },
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
         }
       },
-      "Microsoft.Extensions.Primitives/9.0.2": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
-        }
-      },
+      "Microsoft.Extensions.Primitives/9.0.2": {},
       "Microsoft.NET.StringTools/17.10.4": {
         "runtime": {
           "lib/net8.0/Microsoft.NET.StringTools.dll": {

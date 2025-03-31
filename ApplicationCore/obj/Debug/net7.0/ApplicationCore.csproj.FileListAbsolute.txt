@@ -62,3 +62,16 @@ C:\Users\Łukasz\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\
 C:\Users\Łukasz\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\Users\Łukasz\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\Users\Łukasz\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+D:\Users\lukasz.janus\RiderProjects\backend_blazor_project\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

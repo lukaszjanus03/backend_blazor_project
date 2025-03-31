@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj": {}
+    "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\lukasz.janus\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\lukasz.janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,21 +89,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "D:\\Users\\lukasz.janus\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\lukasz.janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,8 +121,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -170,21 +178,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj": {
+    "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj",
+        "projectUniqueName": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Web\\obj\\",
+        "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Web\\Web.csproj",
+        "packagesPath": "D:\\Users\\lukasz.janus\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\lukasz.janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,11 +210,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Łukasz\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\lukasz.janus\\RiderProjects\\backend_blazor_project\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -239,24 +251,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.14, 8.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -265,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
